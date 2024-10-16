@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main-header{
+    width:100%;
+    background-color: black;
+}
+.main-header .container{
+    width:75%;
+    height: 60px;
+    background-color: aqua;
+    margin-left: 195px;
+}
+.nav{
+    width:40%;
+    height: 60px;
+    background-color: aquamarine;
+    display: flex;
+}
+.logo{
+    width:18%;
+    height: 60px;
+    display: flex;
+}
+.logo-pic{
+    width: 27px;
+    height: 22px;
+    margin-top: 22px;
+}
+.logo-name{
+    color: gray;
+}
+.logo-name:hover{
+    color: aliceblue;
+}
+.nav-links{
+    width: 82%;
+    background-color: antiquewhite;
+}
+.nav-links ul{
+    list-style-type: none;
+    display: flex;
+    gap: 33px;
+    font-size: large;
+}
+.nav-links li a{
+    text-decoration: none;
+}
