@@ -70,3 +70,21 @@ body{
     background-color: white;
     border-radius: 5px;
 }
+.banner{
+    margin-top: 0;
+    background-color: aqua;
+}
+.banner .container-fluid{
+    height: 300px;
+    background-color: yellowgreen;
+    margin-top: 0;
+}
+.banner .container{
+    background-color: aliceblue;
+    margin: 0 284px 0 284px;
+    padding: 64px 121px;
+    color: greenyellow;
+}
+.banner-title{
+    align-items: center;
+}
