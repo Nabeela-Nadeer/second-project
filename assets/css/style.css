@@ -80,11 +80,19 @@ body{
     margin-top: 0;
 }
 .banner .container{
-    background-color: aliceblue;
     margin: 0 284px 0 284px;
-    padding: 64px 121px;
+    padding: 88px 121px;
     color: greenyellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .banner-title{
-    align-items: center;
+    font-size: 65px;
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+.banner-description{
+    font-size: 21px;
+    margin-top: 0;
 }
