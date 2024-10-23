@@ -81,7 +81,7 @@ body{
 }
 .banner .container{
     margin: 0 284px 0 284px;
-    padding: 88px 121px;
+    padding: 88px 90px;
     color: greenyellow;
     display: flex;
     flex-wrap: wrap;
@@ -91,8 +91,21 @@ body{
     font-size: 65px;
     margin-bottom: 6px;
     margin-top: 0;
+    font-style: inherit;
+    font-weight: 500;
+    line-height: 1.1;
 }
 .banner-description{
-    font-size: 21px;
+    font-size: 23px;
     margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 200;
+}
+.button-engage{
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: rgb(248, 250, 252);
+    border-radius: 5px;
+    padding: 8px 20px;
+    box-shadow: 1px 1px gray;
 }
