@@ -215,8 +215,12 @@ body{
 }
 .end-page{
     width:100%;
-    height: 120px;
-    justify-content: center;
+    height: 80px;
+}
+.end-content{
+    width:25%;
+    text-align: center;
+    margin: 45px 0 0 570px;
 }
 .links{
     text-decoration: none;
