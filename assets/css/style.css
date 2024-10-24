@@ -109,16 +109,14 @@ body{
     padding: 8px 20px;
     box-shadow: 1px 1px gray;
 }
-.post{
+.main-posts{
     width: 100%;
-    background-color: aqua;
 }
-.post .container{
-    width: 70%;
-    height: 500px;
-    background-color: bisque;
-    margin-left: 230px;
+.main-posts .container{
+    width: 80%;
+    margin-left: 164px;
     margin-top: 0;
+    margin-bottom: 7px;
 }
 .post-heading{
     width: 100%;
@@ -154,4 +152,38 @@ body{
     text-align: center;
     color: rgb(173, 166, 166);
     font-size: 17px;
+}
+.sub-post{
+    width:100%;
+    display:flex;
+    text-align: center;
+}
+.images{
+    width:378px;
+    height: 328px;
+    border-radius: 5px;
+}
+.post-caption{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 2px;
+}
+.post-caption:hover{
+    text-decoration:dashed;
+    color: #052541;
+}
+.post-description{
+    font-size: 15px;
+    color: gray;
+    
+}
+.end-banner{
+    width: 100%;
+    background-color: goldenrod;
+}
+.end-banner .container{
+    height: 400px;
+    width: 80%;
+    margin-left: 164px;
+    background-color: antiquewhite;
 }
